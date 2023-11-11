@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+
+body{
+    
+    font-family: inter;
+}
+
+
+/* section 2 hero img start ----------------------------- */
+
+.title{
+    padding: 160px 15%;
+} 
+
+
+
+ .title, h1{
+    font-size: 55px;
+    font-family: Inter, serif;
+    font-weight: 700;
+   
+ 
+} 
+
+.para{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 8px;
+}
+
+.heroimg{
+    /* max-width: 80%; */
+    padding: 50px 20%;  
+    
+} 
+
+
+.btn{
+    background-color: rgb(0, 85, 21);
+    color: aliceblue;
+    width: 100px;
+}
+
+/* section 2 hero img END ----------------------------- */
+
+.imagezoom{
+    max-width: 80%;
+    padding: 10px 10%;  
+    width: 100%;
+     /* float:right;  */
+}
+
+
+/* section 3 image and para start ----------------------------- */
+
+.para-1{
+    padding-top: 4%;
+}
+
+/* section 3 image and para END ----------------------------- */
+
+.new{
+    display: flex;
+    font-family:Inter ;
+    font-size: 20px;
+}
