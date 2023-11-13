@@ -384,14 +384,15 @@ text-align: center;
 .team-img {
 max-width: 400px;
 max-height: 500px;
- background-color: aqua;
+padding: 5% 5%;
+
 
 }
 .team{
   padding-top: 2%;
  
+ 
 }
-
 
 
 
@@ -403,8 +404,21 @@ max-height: 500px;
 
 /* <!--section 7 contestart ------------------------------------------------------> */
 
+.Green{
+  background-color: #1d2e26d7;
+  height: 405px;
+
+}
+
+.hr-ques{
+  padding-top: 5%;
+  margin-bottom:4% ;
+}
 
 
+.contact:{
+  padding: 4%;
+}
 .contactForm {
   width: calc(100% - 20px);
   max-width: 700px;
@@ -454,19 +468,17 @@ form {
   
 }
 .inputGroup__textfield {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   width: 100%;
   font-size: 13px;
   padding: 20px;
-  border: 1px solid #FFF;
+  border: 0px solid #000000;
   outline: 0;
   border-radius: 0;
-  transition: border 0.3s ease-in-out;
+  background-color: #0f131171;
+ 
 }
 .inputGroup__textfield:focus, .inputGroup__textfield:active {
-    border: 1px solid #D9D9D9;
+    /* border: 0px solid #ffffff; */
 }
 .hf-warning {
   position: absolute;
@@ -476,10 +488,10 @@ form {
   
   display: inline-block;
   padding: 7px 14px ; 
-  color: #FFFFFF ;
+  /* color: #ffffff ; */
   font-size: 11px ;
   font-family: sans-serif;
-  box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.1) ;
+  box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.1) ;
   border: 0 ;
   border-radius: 2px ;
 }
@@ -521,6 +533,8 @@ width: 40px;
 .logo{
   
   padding-top: 5%;
+  display: inline-block;
+  
 
 
 }
@@ -530,14 +544,14 @@ width: 40px;
   padding-top: 2%;
 
 }
-.{
-  width: 20px;
-  height: 10px;
-  
+
+
+
+.input{
+  background-color: #0f131100;
+  border: 0px solid#0f131171 ;
+ height: 50px;
 }
-
-
-
 
 
 
