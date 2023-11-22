@@ -111,11 +111,11 @@ body {
 
 
 .newplant{
-  padding: 160px 15%;
+  padding:160px 15%;
  }
 
 
-h5{
+.h5{
     font-weight: 400;
     font-size: 30px;
 
@@ -150,7 +150,7 @@ h5{
 
 }
 .about-img:hover{
-    filter: grayscale(0);
+    /* filter: grayscale(0); */
     transform: scale(1.07);  
 }
 
@@ -204,9 +204,7 @@ h2{
   
 }
 
-.new{
-  
-}
+
 .img-new:hover{
    
   transform:translateY(-20px);
@@ -264,8 +262,7 @@ h2{
 }
 
 .portfolio .portfolio-wrap::before {
-  content: "";
-  /* background: rgba(192, 14, 14, 0.5); */
+  content: "0";
   position: absolute;
   left: 0;
   right: 0;
@@ -420,7 +417,7 @@ padding: 7% 5%;
 }
 
 
-.contact:{
+.contact{
   padding: 4%;
 }
 .contactForm {
@@ -467,7 +464,7 @@ form {
     grid-row: 5;
     text-align: right;
 
-    padding-left: ;
+    padding-left:0;
 
   
 }
@@ -481,9 +478,7 @@ form {
   background-color: #ebebeb1f;
  
 }
-.inputGroup__textfield:focus, .inputGroup__textfield:active {
-    /* border: 0px solid #ffffff; */
-}
+
 .hf-warning {
   position: absolute;
   top: 0;
@@ -551,3 +546,8 @@ width: 40px;
 
 
 /* section 8  fooder end------------------------------------------------------------------------------ */
+
+
+
+
+
