@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
+:root{
+  font-family: inter;
+}
 *{
     margin: 0;
     padding: 0px;
@@ -7,14 +10,9 @@
     font-family: Inter;
 }
  
- /* .container {
-   /* background-color: #3e6553;  */
-  /* max-height:500px; */
-  /* padding: 0; */
-     */
 
 .body{
-    /* display: flex; */
+   
     justify-content: center;
     align-items: center;
 }
@@ -34,6 +32,8 @@ body {
 
 
  /*  Section 1- Navbar  start --------------------------------------------------- */
+
+
 .one{
  
   margin-top:1% ;
@@ -130,11 +130,9 @@ h5{
 
 }
     
-.plant-img{
+.plant-img {
     max-width: 70%;
     padding: 50px 0%; 
-    /* float: right;  */
-    
 }
 
 /* <!--section 2 image moving end ------------------------------------------------------> */
@@ -220,7 +218,7 @@ h2{
 }
 
 .portfolio .portfolio-item {
-  /* margin-bottom: 20px; */
+  
   padding: 50px; 
   display: flex;
  
@@ -282,7 +280,7 @@ h2{
   opacity: 1;
   left: 0;
   right: 0;
-  bottom: -60px;
+  bottom: -60px;  background-color: #0f131171;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -365,8 +363,6 @@ text-align: center;
 
   padding: auto;
 
-  
-  
 }
 
 .plush-img{
@@ -388,23 +384,24 @@ text-align: center;
 
 
 /* section 6 start  teams----------------------------------------------------- */
+
+
 .team-img {
 max-width: 400px;
 max-height: 500px;
-padding: 5% 5%;
-
+padding: 7% 5%;
 
 }
+
+.team-img:hover{
+  transform: scale(0.9);
+}
+
+
 .team{
   padding-top: 2%;
  
 }
-
-
-
-
-
-
 
 /* section 6 end   teams----------------------------------------------------- */
 
@@ -412,7 +409,7 @@ padding: 5% 5%;
 /* <!--section 7 contestart ------------------------------------------------------> */
 
 .Green{
-  background-color: #1d2e26d7;
+  background-color:#ebebeb1f;
   height: 405px;
 
 }
@@ -478,10 +475,10 @@ form {
   width: 100%;
   font-size: 13px;
   padding: 20px;
-  border: 0px solid #000000;
+  border: 0px solid;
   outline: 0;
   border-radius: 0;
-  background-color: #0f131171;
+  background-color: #ebebeb1f;
  
 }
 .inputGroup__textfield:focus, .inputGroup__textfield:active {
@@ -502,14 +499,6 @@ form {
   border: 0 ;
   border-radius: 2px ;
 }
-
-
-
-
-
-
-
-
 
 
 /* <!--section 7 conte end ------------------------------------------------------> */
@@ -559,7 +548,6 @@ width: 40px;
   border: 0px solid#0f131171 ;
  height: 50px;
 }
-
 
 
 /* section 8  fooder end------------------------------------------------------------------------------ */
